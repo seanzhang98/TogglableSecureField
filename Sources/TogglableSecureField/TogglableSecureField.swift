@@ -40,7 +40,7 @@ public struct TogglableSecureField<LeftViewT>: View where LeftViewT: View {
                         // Eye = Show; Eye.Slash = Hide
                         // This seems to be a SwiftUI feature.
                         Image(systemName: self.showPassword ? "eye.slash.fill" : "eye.fill")
-                            .font(.system(size: 18, weight: .medium))
+                            .font(.system(size: 13, weight: .medium))
                             .foregroundColor(Color.init(red: 160.0/255.0, green: 160.0/255.0, blue: 160.0/255.0))
                     }
                 })
